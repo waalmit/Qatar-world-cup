@@ -1,0 +1,161 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+
+    background: rgb(240, 240, 240);
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 600px;
+    background-color: #161616;
+    color: white;
+    margin: 90px auto;
+    border-radius: 15px;
+    padding-left: 7px;
+
+}
+
+.Headline {
+    font-weight: 600;
+    font-size: 50px;
+
+}
+
+.box-1 p {
+    font-family: Tahoma;
+    font-weight: 450;
+    font-size: 15px;
+}
+
+.box-1 button {
+    text-decoration: none;
+    background-color: #ca1e1e;
+    padding: 6px 24px;
+    color: white;
+    font-size: 15px;
+    font-weight: 450;
+    border-radius: 6px;
+    border: none;
+
+}
+
+.box-2 img {
+    width: 600px;
+    height: 600px;
+
+}
+
+.middle-part {
+    display: flex;
+    width: 90%;
+    margin: 100px auto;
+}
+
+.side-button {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(45, 26, 3);
+    border-radius: 8px;
+    padding-top: 20px;
+
+
+}
+
+.side-button .color {
+    background-color: orangered;
+    border: none;
+    color: white;
+}
+
+.buttons button {
+    font-size: 15px;
+    border-radius: 10px;
+    line-height: 20px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 90%;
+    display: block;
+    margin: 30px auto;
+    color: #161616;
+}
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.match {
+    width: 312px;
+    height: 362px;
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 18px;
+    margin-left: 80px;
+
+}
+
+.match-detail button {
+    background-color: white;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    line-height: 30px;
+    margin: 0 10px;
+}
+
+.match h4, i {
+    padding: 10px;
+}
+
+.match-time i {
+    margin: 0 5px;
+}
+
+.footer-section {
+    color: white;
+    background-color: #151111;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.footer-section h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+hr {
+    border: 1px solid rgb(86, 84, 84);
+    margin: 50px 70px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.icons .fa-brands {
+    margin: 0 10px;
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 18px;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+}
